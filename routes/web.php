@@ -5,9 +5,9 @@ use Gemini\Enums\MimeType;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/ai', function () {
     $yourApiKey = getenv('GEMINI_API_KEY');
@@ -31,7 +31,7 @@ Route::get('/ai', function () {
 });
 
 
-Route::get('/joke', function () {
+Route::get('/', function () {
     $yourApiKey = getenv('GEMINI_API_KEY');
     $client = Gemini::client($yourApiKey);
 

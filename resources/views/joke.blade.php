@@ -27,7 +27,7 @@
         </blockquote>
       </figure>
       <div class="flex flex-col my-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-        <a href="/joke"
+        <a href="/"
           class="inline-flex justify-center items-center py-3 px-5 text-2xl font-medium text-center text-dark rounded-lg bg-primary-100 hover:bg-primary-200 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
           Give me more
         </a>
